@@ -9,6 +9,7 @@ const store = createStore(manageRestaurants, window.__REDUX_DEVTOOLS_EXTENSION__
 
 ReactDOM.render(
   <Provider store={store}>
+    {/* <App/> */}
     <App store={store}/>
   </Provider>,
   document.getElementById('root')
